@@ -18,7 +18,6 @@ const userSchema = new mongoose.Schema({
   phone: {
     type: Number,
     required: true,
-    maxLength: [10, "Name cannot be exceed 10 characters."],
   },
   address: {
     type: String,
