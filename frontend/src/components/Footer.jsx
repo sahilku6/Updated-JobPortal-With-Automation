@@ -4,8 +4,8 @@ import { useSelector } from "react-redux";
 import {
   FaSquareXTwitter,
   FaSquareInstagram,
-  FaYoutube,
   FaLinkedin,
+  FaGithub,
 } from "react-icons/fa6";
 
 const Footer = () => {
@@ -19,9 +19,9 @@ const Footer = () => {
         <div>
           <h4>Support</h4>
           <ul>
-            <li>Street No.007 Shahrah-e-Faisal Karachi, Pakistan</li>
+            <li>Gali No 6, Basant Nagar, Phagwara, Punjab(India)</li>
             <li>nichenest@gmail.com</li>
-            <li>+92 3106507521</li>
+            <li>+91 1234567890</li>
           </ul>
         </div>
 
@@ -45,42 +45,34 @@ const Footer = () => {
           <h4>Follow Us</h4>
           <ul>
             <li>
-              <Link to={"/"}>
-                <span>
-                  <FaSquareXTwitter />
-                </span>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <span><FaSquareXTwitter /></span>
                 <span>Twitter (X)</span>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to={"/"}>
-                <span>
-                  <FaSquareInstagram />
-                </span>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <span><FaSquareInstagram /></span>
                 <span>Instagram</span>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to={"/"}>
-                <span>
-                  <FaYoutube />
-                </span>
-                <span>Youtube</span>
-              </Link>
+              <a href="https://github.com/sahilku6" target="_blank" rel="noopener noreferrer">
+                <span><FaGithub /></span>
+                <span>GitHub</span>
+              </a>
             </li>
             <li>
-              <Link to={"/"}>
-                <span>
-                  <FaLinkedin />
-                </span>
+              <a href="https://www.linkedin.com/in/sahil612/" target="_blank" rel="noopener noreferrer">
+                <span><FaLinkedin /></span>
                 <span>LinkedIn</span>
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
       </footer>
       <div className="copyright">
-        &copy; CopyRight 2024. All Rights Reserved By CodeWithZeeshu
+        &copy; CopyRight 2024. All Rights Reserved By Sahil
       </div>
     </>
   );
